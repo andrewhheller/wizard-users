@@ -12,7 +12,7 @@ const findAllUsers = () => {
 const findUser = (id) => users.find(user => user.id === id);
 
 const createUser = name => {
-x
+
   // determine max user ID
   let maxId = users.reduce((max, user) => {
 
