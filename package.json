@@ -1,0 +1,20 @@
+{
+  "name": "wizard-users-try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./node_modules/mocha/bin/mocha",
+    "start:dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "html-template-tag": "^2.0.0",
+    "method-override": "^3.0.0"
+  }
+}
